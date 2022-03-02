@@ -1,5 +1,5 @@
 header {
-    height: 115vh;
+    height: 60vh;
     padding-top: 3rem;
     overflow: hidden;
 }
@@ -54,7 +54,7 @@ header {
 .scroll__down{
     position: absolute;
     right: -17rem;
-    bottom: 10rem;
+    bottom: 5rem;
     transform: rotate(90deg); 
     font-weight: 300;
     font-size: 1.1rem;

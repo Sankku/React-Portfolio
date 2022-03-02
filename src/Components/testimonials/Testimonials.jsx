@@ -16,14 +16,16 @@ const data = [
   {
     avatar: AVTR1,
     name: "Gonzalo Rivero",
+    title: "Software Engineer",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim magnam impedit in voluptatem quo consequuntur? Dolores alias, tenetur sequi in impedit vel sunt vero",
+      "I have known Santiago for about a year and a half and I was his reference in terms of programming from the moment we met, therefore I can give faith of your knowledge and desire to learn is a person with a high level of problem solving and highly predisposed to learn.",
   },
   {
     avatar: AVTR2,
     name: "Tomas Quiroga",
+    title: "Fellow Developer",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim magnam impedit in voluptatem quo consequuntur? Dolores alias, tenetur sequi in impedit vel sunt vero",
+      "He is a true professional dedicated body and soul to improving the world as a programmer. I like that he continues to be a restless person, with the ability to improve himself and continue advancing as a programmer and as a person.",
   },
 ];
 
@@ -40,13 +42,14 @@ const Testimonials = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ avatar, name, review, title }, index) => {
           return (
             <SwiperSlide key={index} className="testimonial">
+              <h3 className="client__name">{name}</h3>
               <div className="client__avatar">
                 <img src={avatar} />
               </div>
-              <h5 className="client__name">{name}</h5>
+              <h5 className="client__name">{title}</h5>
               <small className="client__review">{review}</small>
             </SwiperSlide>
           );

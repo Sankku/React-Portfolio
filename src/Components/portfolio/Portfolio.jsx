@@ -4,6 +4,8 @@ import IMG1 from '../../Assets/portfolio1.png'
 import IMG2 from '../../Assets/portfolio2.png'
 import IMG3 from '../../Assets/portfolio3.png'
 import IMG4 from '../../Assets/portfolio4.png'
+import IMG5 from '../../Assets/portfolio5.png'
+import IMG6 from '../../Assets/portfolio6.png'
 
 
 const data = [ 
@@ -17,20 +19,34 @@ const data = [
   {
     id:2,
     image: IMG2,
-    title: 'JavaScript Counter to determinate date',
-    github:'https://github.com/Sankku/Count-till-next-iphone',
-    demo: 'https://sankku.github.io/Count-till-next-iphone/'
+    title: 'JavaScript Admin Dashboard',
+    github:'https://github.com/Sankku/Admin-Dashboard',
+    demo: 'https://sankku.github.io/Admin-Dashboard/'
   },
   {
     id:3,
     image: IMG3,
-    title: 'JavaScript Password Generator',
-    github:'https://github.com/Sankku/passwordgenerator',
-    demo: 'https://sankku.github.io/passwordgenerator/'
+    title: 'React Phone Weather Application',
+    github:'https://github.com/Sankku/Weather-React',
+    demo: 'https://angry-bose-1663c7.netlify.app/'
   },
   {
     id:4,
     image: IMG4,
+    title: 'React ToDo Application',
+    github:'https://github.com/Sankku/Practical-React',
+    demo: 'https://peaceful-mahavira-01f523.netlify.app/'
+  },
+  {
+    id:5,
+    image: IMG5,
+    title: 'React ToDo Application',
+    github:'https://github.com/Sankku/Practical-React',
+    demo: 'https://peaceful-mahavira-01f523.netlify.app/'
+  },
+  {
+    id:6,
+    image: IMG6,
     title: 'React ToDo Application',
     github:'https://github.com/Sankku/Practical-React',
     demo: 'https://peaceful-mahavira-01f523.netlify.app/'

@@ -32,14 +32,14 @@ const data = [
   },
   {
     id:4,
-    image: IMG4,
+    image: IMG5,
     title: 'React ToDo Application',
     github:'https://github.com/Sankku/Practical-React',
     demo: 'https://peaceful-mahavira-01f523.netlify.app/'
   },
   {
     id:5,
-    image: IMG5,
+    image: IMG4,
     title: 'React ToDo Application',
     github:'https://github.com/Sankku/Practical-React',
     demo: 'https://peaceful-mahavira-01f523.netlify.app/'

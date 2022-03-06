@@ -19,7 +19,7 @@ const data = [
   {
     id: 2,
     image: IMG7,
-    title: "React Restaurant Web",
+    title: "React Restaurant Web Modern Ui",
     github: "https://github.com/Sankku/restaurant-web",
     demo: "https://restaurant-template-taupe.vercel.app/",
   },

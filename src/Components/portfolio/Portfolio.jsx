@@ -1,86 +1,103 @@
-import React from 'react'
-import './portfolio.css'
-import IMG1 from '../../Assets/portfolio1.png'
-import IMG2 from '../../Assets/portfolio2.png'
-import IMG3 from '../../Assets/portfolio3.png'
-import IMG4 from '../../Assets/portfolio4.png'
-import IMG5 from '../../Assets/portfolio5.png'
-import IMG6 from '../../Assets/portfolio6.png'
+import React from "react";
+import "./portfolio.css";
+import IMG1 from "../../Assets/portfolio1.png";
+import IMG2 from "../../Assets/portfolio2.png";
+import IMG3 from "../../Assets/portfolio3.png";
+import IMG4 from "../../Assets/portfolio4.png";
+import IMG5 from "../../Assets/portfolio5.png";
+import IMG6 from "../../Assets/portfolio6.png";
+import IMG7 from "../../Assets/portfolio7.png";
 
-
-const data = [ 
+const data = [
   {
-    id:1,
+    id: 1,
     image: IMG1,
-    title: 'Only HTML, Css, JavaScript Portfolio',
-    github:'https://github.com/Sankku/Portfolio',
-    demo: 'https://sankku.github.io/Portfolio/'
+    title: "Only HTML, Css, JavaScript Portfolio",
+    github: "https://github.com/Sankku/Portfolio",
+    demo: "https://sankku.github.io/Portfolio/",
   },
   {
-    id:2,
+    id: 2,
+    image: IMG7,
+    title: "React Restaurant Web",
+    github: "https://github.com/Sankku/restaurant-web",
+    demo: "https://restaurant-template-taupe.vercel.app/",
+  },
+  {
+    id: 3,
     image: IMG2,
-    title: 'JavaScript Admin Dashboard',
-    github:'https://github.com/Sankku/Admin-Dashboard',
-    demo: 'https://sankku.github.io/Admin-Dashboard/'
+    title: "JavaScript Admin Dashboard",
+    github: "https://github.com/Sankku/Admin-Dashboard",
+    demo: "https://sankku.github.io/Admin-Dashboard/",
   },
   {
-    id:3,
+    id: 4,
     image: IMG3,
-    title: 'React Phone Weather Application',
-    github:'https://github.com/Sankku/Weather-React',
-    demo: 'https://angry-bose-1663c7.netlify.app/'
+    title: "React Phone Weather Application",
+    github: "https://github.com/Sankku/Weather-React",
+    demo: "https://angry-bose-1663c7.netlify.app/",
   },
   {
-    id:4,
+    id: 5,
     image: IMG5,
-    title: 'React ToDo Application',
-    github:'https://github.com/Sankku/Practical-React',
-    demo: 'https://peaceful-mahavira-01f523.netlify.app/'
+    title: "JavasCript Password Generator",
+    github: "https://github.com/Sankku/Practical-React",
+    demo: "https://peaceful-mahavira-01f523.netlify.app/",
   },
   {
-    id:5,
+    id: 6,
     image: IMG4,
-    title: 'React ToDo Application',
-    github:'https://github.com/Sankku/Practical-React',
-    demo: 'https://peaceful-mahavira-01f523.netlify.app/'
+    title: "React ToDo Application",
+    github: "https://github.com/Sankku/Practical-React",
+    demo: "https://peaceful-mahavira-01f523.netlify.app/",
   },
   {
-    id:6,
+    id: 7,
     image: IMG6,
-    title: 'React ToDo Application',
-    github:'https://github.com/Sankku/Practical-React',
-    demo: 'https://peaceful-mahavira-01f523.netlify.app/'
+    title: "JavaScript Counter",
+    github: "https://github.com/Sankku/Practical-React",
+    demo: "https://peaceful-mahavira-01f523.netlify.app/",
   },
-]
+];
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className='container portfolio__container'>
-        {
-          data.map(({id, image, title, github, demo}) => {
-            return (
-              <article key={id} className='portfolio__item'>
-                <div className='portfolio__item-image'>
-                  <img src={image} alt=''/>
-                  </div>
-                  <h3>{title}</h3>
-                  <div className='portfolio__item-cta'>
-                    <a href={github} className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                    <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
-                </div>
-              </article>
-            )
-          })
-        }
+      <div className="container portfolio__container">
+        {data.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={image} alt="" />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
-
-
+export default Portfolio;

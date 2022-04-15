@@ -7,16 +7,16 @@ import IMG4 from "../../Assets/portfolio4.png";
 import IMG5 from "../../Assets/portfolio5.png";
 import IMG6 from "../../Assets/portfolio6.png";
 import IMG7 from "../../Assets/portfolio7.png";
-import IMG8 from "../../Assets/portfolio8.png";
+// import IMG8 from "../../Assets/portfolio8.png";
 
 const data = [
-  {
-    id: 1,
-    image: IMG8,
-    title: "JavaScript Fighting Game",
-    github: "https://github.com/Sankku/Fighting-Game",
-    demo: "https://gleeful-syrniki-14341c.netlify.app",
-  },
+  // {
+  //   id: 1,
+  //   image: IMG8,
+  //   title: "JavaScript Fighting Game",
+  //   github: "https://github.com/Sankku/Fighting-Game",
+  //   demo: "https://gleeful-syrniki-14341c.netlify.app",
+  // },
   {
     id: 2,
     image: IMG1,

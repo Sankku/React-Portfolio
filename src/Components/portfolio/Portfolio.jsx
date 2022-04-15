@@ -1,13 +1,13 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../Assets/portfolio1.png";
-import IMG2 from "../../Assets/portfolio2.png";
-import IMG3 from "../../Assets/portfolio3.png";
-import IMG4 from "../../Assets/portfolio4.png";
-import IMG5 from "../../Assets/portfolio5.png";
-import IMG6 from "../../Assets/portfolio6.png";
-import IMG7 from "../../Assets/portfolio7.png";
-import IMG8 from "../../Assets/portfolio8.png";
+import IMG1 from "../../assets/portfolio1.png";
+import IMG2 from "../../assets/portfolio2.png";
+import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/portfolio4.png";
+import IMG5 from "../../assets/portfolio5.png";
+import IMG6 from "../../assets/portfolio6.png";
+import IMG7 from "../../assets/portfolio7.png";
+import IMG8 from "../../assets/portfolio8.png";
 
 const data = [
   {

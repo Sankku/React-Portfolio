@@ -30,7 +30,7 @@ const About = () => {
               <BsClockHistory className="about__icon" />
               <h5>Hobbies</h5>
               <small>
-                <ul class="check-list">
+                <ul className="check-list">
                   <li>Nature</li>
                   <li>Gaming</li>
                   <li>Developing</li>

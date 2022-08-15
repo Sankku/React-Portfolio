@@ -1,19 +1,56 @@
 header {
     height: 60vh;
-    padding-top: 3rem;
-    overflow: hidden;
+    padding-top: 1.5rem;
 }
 
-.header__container{
+.card__tittle{
+    gap: 0.8rem;
+}
+
+.card__tittle::after{
+    content: '';
+    width: 10px;
+    height: 4rem;
+    background: var(--color-primary);
+}
+
+.container.header__container {
+    aspect-ratio: 	1/1;
     text-align: center;
-    height: 100%;
-    position: relative;
-    max-width: 40%;
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 1.5rem;
+    border-radius: 20px;
 }
 
+.header__card {
+    display: table;
+    padding: 5%;
+    background: rgb(51, 51, 51);
+    border-radius: 2rem;
+    border: 1px solid white;
+    transition: var(--transition);
+}
+
+.header__card:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.memoji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(71, 71, 71);
+    overflow: hidden;
+    border-radius: 50%;
+    width: 8rem;
+}
 /***************** CTA *******************/
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -38,7 +75,7 @@ header {
 }
 
 /***************** ME *******************/
-.me {
+/* .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
@@ -48,28 +85,51 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
+} */
 
 /***************** SCROLL DOWN *******************/
-.scroll__down{
-    position: absolute;
-    right: -17rem;
-    bottom: 5rem;
-    transform: rotate(90deg); 
-    font-weight: 300;
-    font-size: 1.1rem;
+.scroll__cont{
+    position: relative;
+    display: flex;
+    right: -110%;
+    transform: rotate(90deg);
 }
+.scroll__down{
+    font-weight: 300;
+    font-size: 1.2rem;
+    animation: infiniteupdown 1.5s linear infinite;
+}
+
+@keyframes infiniteupdown {
+    0% {
+        transform: translateX(-1rem);
+    }
+    50% { 
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(-1rem);
+    }
+}
+
+
 
 /************************* Media queries (medium devices) ******************************/
 @media screen and (max-width: 1024px){
     header{
         height: 68vh;
     }
+    .header__container {
+        width: 100%;
+    }
 }
 /************************* Media queries (small devices) ******************************/
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
+        height: 110vh;
+    }
+    .header__container {
+        width: 100%;
     }
     .header__socials, .scroll__down{
         display: none;

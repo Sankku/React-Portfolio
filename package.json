@@ -15,6 +15,7 @@
     "react-toastify": "^8.2.0",
     "styled-components": "^5.3.5",
     "swiper": "^8.0.6",
+    "vercel": "^19.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

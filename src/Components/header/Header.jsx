@@ -22,12 +22,12 @@ const Header = () => {
             growing as a person and professional.
           </h5>
           <CTA />
-          <div className="scroll__cont">
-            <a href="#contact" className="scroll__down">
-              Scroll Down ---&gt;
-            </a>
-          </div>
         </article>
+        <div className="scroll__cont">
+          <a href="#contact" className="scroll__down">
+            Scroll Down ---&gt;
+          </a>
+        </div>
         <HeaderSocials />
       </div>
     </header>

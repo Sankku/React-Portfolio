@@ -9,12 +9,14 @@
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
+    backdrop-filter: grayscale(30%);
     transition: var(--transition);
 }
 
 .portfolio__item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
+    transform: scale(1.1);
 }
 
 .portfolio__item-image{

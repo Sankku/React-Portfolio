@@ -35,11 +35,12 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
+  background: radial-gradient(ellipse at center, #242424, #090a0f);
   color: var(--color-white);
   line-height: 1.7;
   /* background-image: url(../src/Assets/texture-1.png); */
 }
+
 
 /******************* general styles ********************/
 .container {

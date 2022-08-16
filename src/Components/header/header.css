@@ -26,6 +26,7 @@ header {
 }
 
 .header__card {
+    backdrop-filter: grayscale(30%);
     display: table;
     padding: 5%;
     background: rgb(51, 51, 51);

@@ -5,6 +5,7 @@
 }
 
 .experience__container > div {
+    backdrop-filter: grayscale(30%);
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -13,6 +14,7 @@
 }
 
 .experience__container > div:hover{
+    transform: scale(1.1);
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;

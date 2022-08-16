@@ -1,5 +1,5 @@
 header {
-    height: 60vh;
+    height: 70vh;
     padding-top: 1.5rem;
 }
 
@@ -36,6 +36,7 @@ header {
 
 .header__card:hover{
     border-color: var(--color-primary-variant);
+    transform: scale(1.1);
     background: transparent;
 }
 
@@ -126,10 +127,10 @@ header {
 /************************* Media queries (small devices) ******************************/
 @media screen and (max-width: 600px){
     header{
-        height: 110vh;
+        height: 70vh;
     }
     .header__container {
-        width: 100%;
+        width: 90%;
     }
     .header__socials, .scroll__down{
         display: none;

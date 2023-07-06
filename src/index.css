@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #242424;
-  --color-bg-variant: #2f4646;
+  --color-bg-variant: #23272f;
   --color-primary: #76c5bc;
   --color-primary-variant: #c7519b;
   --color-white: white;
@@ -40,7 +40,6 @@ body {
   line-height: 1.7;
   /* background-image: url(../src/Assets/texture-1.png); */
 }
-
 
 /******************* general styles ********************/
 .container {

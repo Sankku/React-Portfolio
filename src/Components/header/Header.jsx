@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import MEMOJI from "../../Assets/Memoji.png"
+import MEMOJI from "../../Assets/Memoji.png";
 
 const Header = () => {
   return (
@@ -10,16 +10,16 @@ const Header = () => {
       <div className="container header__container">
         <article className="header__card">
           <div className="card__tittle">
-            <h5>Hello I'm</h5>
+            <h5>Hello</h5>
           </div>
           <div className="memoji">
             <img src={MEMOJI} alt="MeEmoji" />
           </div>
           <h1>Santiago Alaniz</h1>
           <h5 className="text-light">
-            <b>I am a junior developer raised in Argentina</b>, and a university
-            student excited to find a place to expand my knowledge and keep
-            growing as a person and professional.
+            <b>I'm Developer raised in Argentina</b>, and a university student
+            excited to find a place to expand my knowledge and keep growing as a
+            person and professional.
           </h5>
           <CTA />
         </article>

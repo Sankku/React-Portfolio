@@ -12,38 +12,38 @@ const Nav = () => {
   return (
     <nav>
       <a
+        aria-label="Who is Santiago"
         href="#Home"
         onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
+        className={activeNav === "#" ? "active" : ""}>
         <AiOutlineHome />
       </a>
       <a
+        aria-label="Read more about Santiago"
         href="#about"
         onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
+        className={activeNav === "#about" ? "active" : ""}>
         <AiOutlineUser />
       </a>
       <a
+        aria-label="See Santiago's experience"
         href="#experience"
         onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
+        className={activeNav === "#experience" ? "active" : ""}>
         <BsBookHalf />
       </a>
       <a
+        aria-label="See some of the services that Santiago provides"
         href="#services"
         onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
+        className={activeNav === "#services" ? "active" : ""}>
         <RiServiceLine />
       </a>
       <a
+        aria-label="Contact Santiago to know more about him"
         href="#contact"
         onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
+        className={activeNav === "#contact" ? "active" : ""}>
         <BiMessageDetail />
       </a>
     </nav>

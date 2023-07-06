@@ -1,6 +1,5 @@
 header {
-  height: 70vh;
-  padding-top: 1.5rem;
+  height: 90vh;
 }
 
 .card__tittle {
@@ -19,13 +18,13 @@ header {
   text-align: center;
   display: grid;
   place-items: center;
-  max-width: 30%;
+  max-width: 100%;
   max-height: 100%;
-  padding-top: 1.5rem;
   border-radius: 20px;
 }
 
 .header__card {
+  max-width: 30%;
   backdrop-filter: grayscale(30%);
   display: table;
   padding: 5%;
@@ -43,12 +42,18 @@ header {
 
 .memoji {
   display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid rgb(71, 71, 71);
   overflow: hidden;
   border-radius: 50%;
-  width: 8rem;
+  width: 10rem;
+}
+
+.text-content {
+  margin-top: 0.8rem;
 }
 /***************** CTA *******************/
 .cta {
@@ -93,12 +98,13 @@ header {
 .scroll__cont {
   position: relative;
   display: flex;
-  right: -110%;
+  right: -50%;
+  top: -150%;
   transform: rotate(90deg);
 }
 .scroll__down {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   animation: infiniteupdown 1.5s linear infinite;
 }
 
@@ -117,7 +123,7 @@ header {
 /************************* Media queries (medium devices) ******************************/
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 90vh;
   }
   .header__container {
     width: 100%;
@@ -126,10 +132,10 @@ header {
 /************************* Media queries (small devices) ******************************/
 @media screen and (max-width: 600px) {
   header {
-    height: 70vh;
+    height: 80vh;
   }
   .header__container {
-    width: 90%;
+    width: 100%;
   }
   .header__socials,
   .scroll__down {

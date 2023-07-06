@@ -10,17 +10,19 @@ const Header = () => {
       <div className="container header__container">
         <article className="header__card">
           <div className="card__tittle">
-            <h5>Hello</h5>
+            <h4>Hello I'm</h4>
           </div>
           <div className="memoji">
             <img src={MEMOJI} alt="MeEmoji" />
           </div>
           <h1>Santiago Alaniz</h1>
-          <h5 className="text-light">
-            <b>I'm Developer raised in Argentina</b>, and a university student
-            excited to find a place to expand my knowledge and keep growing as a
-            person and professional.
-          </h5>
+          <div className="text-content">
+            <h4 className="text-light">
+              <b>Developer</b> raised in <b>Argentina</b>, and a university
+              student excited to find a place to expand my knowledge and keep
+              growing as a person and professional.
+            </h4>
+          </div>
           <CTA />
         </article>
         <div className="scroll__cont">

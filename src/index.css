@@ -61,7 +61,7 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5 rem;
+  font-size: 2rem;
 }
 
 section {
@@ -126,7 +126,7 @@ img {
     width: var(--container-width-md);
   }
   section {
-    margin-top: 6rem;
+    margin-top: 12rem;
   }
 }
 /************************* Media queries (small devices) ******************************/
@@ -135,6 +135,6 @@ img {
     width: var(--container-width-sm);
   }
   section > h2 {
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
 }

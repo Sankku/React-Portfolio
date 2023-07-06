@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../Assets/avatar1.png";
-import AVTR2 from "../../Assets/avatar1.png";
+import AVTR1 from "../../Assets/avatar1.AVIF";
+import AVTR2 from "../../Assets/avatar1.AVIF";
 
 // import Swiper core and required modules
 import { Navigation, Pagination } from "swiper";
@@ -40,8 +40,7 @@ const Testimonials = () => {
         modules={[Navigation, Pagination]}
         spaceBetween={50}
         slidesPerView={1}
-        pagination={{ clickable: true }}
-      >
+        pagination={{ clickable: true }}>
         {data.map(({ avatar, name, review, title }, index) => {
           return (
             <SwiperSlide key={index} className="testimonial">

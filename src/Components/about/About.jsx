@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../Assets/me1.png";
+import ME from "../../Assets/me1.AVIF";
 import { FaAward } from "react-icons/fa";
 import { BsClockHistory } from "react-icons/bs";
 import { AiFillFolderOpen } from "react-icons/ai";

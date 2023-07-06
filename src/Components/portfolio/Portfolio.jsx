@@ -1,13 +1,13 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../Assets/portfolio1.png";
-import IMG2 from "../../Assets/portfolio2.png";
-import IMG3 from "../../Assets/portfolio3.png";
-import IMG4 from "../../Assets/portfolio4.png";
-import IMG5 from "../../Assets/portfolio5.png";
-import IMG6 from "../../Assets/portfolio6.png";
-import IMG7 from "../../Assets/portfolio7.png";
-import IMG8 from "../../Assets/portfolio8.png";
+import IMG1 from "../../Assets/portfolio1.AVIF";
+import IMG2 from "../../Assets/portfolio2.AVIF";
+import IMG3 from "../../Assets/portfolio3.AVIF";
+import IMG4 from "../../Assets/portfolio4.AVIF";
+import IMG5 from "../../Assets/portfolio5.AVIF";
+import IMG6 from "../../Assets/portfolio6.AVIF";
+import IMG7 from "../../Assets/portfolio7.AVIF";
+import IMG8 from "../../Assets/portfolio8.AVIF";
 
 const data = [
   {
@@ -87,16 +87,14 @@ const Portfolio = () => {
                   href={github}
                   className="btn"
                   target="_blank"
-                  rel="noreferrer"
-                >
+                  rel="noreferrer">
                   GitHub
                 </a>
                 <a
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
-                  rel="noreferrer"
-                >
+                  rel="noreferrer">
                   Live Demo
                 </a>
               </div>

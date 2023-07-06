@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import MEMOJI from "../../Assets/Memoji.png";
+import MEMOJI from "../../Assets/Memoji.AVIF";
 
 const Header = () => {
   return (

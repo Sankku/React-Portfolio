@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/avatar1.png";
-import AVTR2 from "../../assets/avatar1.png";
+import AVTR1 from "../../Assets/avatar1.png";
+import AVTR2 from "../../Assets/avatar1.png";
 
 // import Swiper core and required modules
 import { Navigation, Pagination } from "swiper";

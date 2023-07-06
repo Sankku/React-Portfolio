@@ -19,7 +19,7 @@ header {
     text-align: center;
     display: grid;
     place-items: center;
-    max-width: 100%;
+    max-width: 30%;
     max-height: 100%;
     padding-top: 1.5rem;
     border-radius: 20px;

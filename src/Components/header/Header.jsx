@@ -17,11 +17,11 @@ const Header = () => {
           </div>
           <h1>Santiago Alaniz</h1>
           <div className="text-content">
-            <h4 className="text-light">
+            <h5 className="text-light">
               <b>Developer</b> raised in <b>Argentina</b>, and a university
               student excited to find a place to expand my knowledge and keep
               growing as a person and professional.
-            </h4>
+            </h5>
           </div>
           <CTA />
         </article>

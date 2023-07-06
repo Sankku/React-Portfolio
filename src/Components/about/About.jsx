@@ -8,9 +8,8 @@ import { AiFillFolderOpen } from "react-icons/ai";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
       <h2>About Me</h2>
-
+      <h5>Get to Know</h5>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -22,13 +21,13 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
+              <h4>Experience</h4>
               <small>2+ Years Coding</small>
             </article>
 
             <article className="about__card">
               <BsClockHistory className="about__icon" />
-              <h5>Hobbies</h5>
+              <h4>Hobbies</h4>
               <small>
                 <ul className="check-list">
                   <li>Nature</li>

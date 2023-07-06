@@ -72,11 +72,11 @@ section > h2,
 section > h5 {
   text-align: center;
   color: var(--color-light);
+  margin-bottom: 3rem;
 }
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
 }
 
 .text-light {
@@ -136,5 +136,9 @@ img {
   }
   section > h2 {
     margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  h5 {
+    margin-bottom: 4rem;
   }
 }

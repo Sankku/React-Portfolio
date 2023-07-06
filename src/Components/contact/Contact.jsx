@@ -34,8 +34,8 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
+      <h5>Get In Touch</h5>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -46,8 +46,7 @@ const Contact = () => {
             <a
               href="mailto:santiagoemprendedor9@gmail.com"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -58,8 +57,7 @@ const Contact = () => {
             <a
               href="https://m.me/100008305805048"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -70,8 +68,7 @@ const Contact = () => {
             <a
               href="https://api.WhatsApp.com/send?phone=+543584011851"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -89,8 +86,7 @@ const Contact = () => {
             name="message"
             rows={7}
             placeholder="Your Message"
-            required
-          ></textarea>
+            required></textarea>
           <button type="submit" className="btn btn-primary" onClick={Promise}>
             Send Message
           </button>

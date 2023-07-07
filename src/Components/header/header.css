@@ -65,13 +65,14 @@ header {
 
 /***************** HEADER SOCIALS *******************/
 .header__socials {
+  font-size: 1.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
   position: fixed;
   left: 2rem;
-  bottom: 0rem;
+  bottom: 40%;
 }
 
 .header__socials::after {

@@ -35,6 +35,10 @@ const Services = () => {
               <FaCheck className="service__list-icon" />
               <p>Adobe Illustrator</p>
             </li>
+            <li>
+              <FaCheck className="service__list-icon" />
+              <p>3D models</p>
+            </li>
           </ul>
         </article>
         {/* END OF UI/UX */}
@@ -101,6 +105,10 @@ const Services = () => {
             <li>
               <FaCheck className="service__list-icon" />
               <p>Meticulous</p>
+            </li>
+            <li>
+              <FaCheck className="service__list-icon" />
+              <p>Used to competitive enviroments</p>
             </li>
           </ul>
         </article>

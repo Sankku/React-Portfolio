@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../Assets/portfolio1.AVIF";
@@ -13,7 +14,11 @@ const data = [
   {
     id: 1,
     image: IMG8,
-    title: "JavaScript Fighting Game",
+    title: "Only JavaScript Fighting Game",
+    techs: [
+      { name: "JavaScript", color: "c_baseline", border: "t_border" },
+      { name: "HTML", color: "c_baseline", border: "t_border" },
+    ],
     github: "https://github.com/Sankku/Fighting-Game",
     demo: "https://gleeful-syrniki-14341c.netlify.app",
   },
@@ -21,6 +26,11 @@ const data = [
     id: 2,
     image: IMG1,
     title: "Only HTML, Css, JavaScript Portfolio",
+    techs: [
+      { name: "JavaScript", color: "c_baseline", border: "t_border" },
+      { name: "HTML", color: "c_baseline", border: "t_border" },
+      { name: "CSS", color: "c_baseline", border: "t_border" },
+    ],
     github: "https://github.com/Sankku/Portfolio",
     demo: "https://sankku.github.io/Portfolio/",
   },
@@ -28,6 +38,12 @@ const data = [
     id: 3,
     image: IMG7,
     title: "React Restaurant Web Modern Ui",
+    techs: [
+      { name: "React", color: "c_baseline", border: "t_border" },
+      { name: "JavaScript", color: "c_baseline", border: "t_border" },
+      { name: "HTML", color: "c_baseline", border: "t_border" },
+      { name: "CSS", color: "c_baseline", border: "t_border" },
+    ],
     github: "https://github.com/Sankku/restaurant-web",
     demo: "https://restaurant-template-taupe.vercel.app/",
   },
@@ -35,6 +51,11 @@ const data = [
     id: 4,
     image: IMG2,
     title: "JavaScript Admin Dashboard",
+    techs: [
+      { name: "JavaScript", color: "c_baseline", border: "t_border" },
+      { name: "HTML", color: "c_baseline", border: "t_border" },
+      { name: "CSS", color: "c_baseline", border: "t_border" },
+    ],
     github: "https://github.com/Sankku/Admin-Dashboard",
     demo: "https://sankku.github.io/Admin-Dashboard/",
   },
@@ -42,6 +63,13 @@ const data = [
     id: 5,
     image: IMG3,
     title: "React Phone Weather Application",
+    techs: [
+      { name: "React", color: "c_baseline", border: "t_border" },
+      { name: "HTML", color: "c_baseline", border: "t_border" },
+      { name: "NodeJS", color: "c_baseline", border: "t_border" },
+      { name: "Jest", color: "c_baseline", border: "t_border" },
+      { name: "CSS", color: "c_baseline", border: "t_border" },
+    ],
     github: "https://github.com/Sankku/Weather-React",
     demo: "https://angry-bose-1663c7.netlify.app/",
   },
@@ -49,6 +77,12 @@ const data = [
     id: 6,
     image: IMG5,
     title: "JavasCript Password Generator",
+    techs: [
+      { name: "React", color: "c_baseline", border: "t_border" },
+      { name: "JavaScript", color: "c_baseline", border: "t_border" },
+      { name: "HTML", color: "c_baseline", border: "t_border" },
+      { name: "CSS", color: "c_baseline", border: "t_border" },
+    ],
     github: "https://github.com/Sankku/Practical-React",
     demo: "https://peaceful-mahavira-01f523.netlify.app/",
   },
@@ -56,6 +90,12 @@ const data = [
     id: 7,
     image: IMG4,
     title: "React ToDo Application",
+    techs: [
+      { name: "React", color: "c_baseline", border: "t_border" },
+      { name: "JavaScript", color: "c_baseline", border: "t_border" },
+      { name: "HTML", color: "c_baseline", border: "t_border" },
+      { name: "CSS", color: "c_baseline", border: "t_border" },
+    ],
     github: "https://github.com/Sankku/Practical-React",
     demo: "https://peaceful-mahavira-01f523.netlify.app/",
   },
@@ -63,6 +103,12 @@ const data = [
     id: 8,
     image: IMG6,
     title: "JavaScript Counter",
+    techs: [
+      { name: "React", color: "c_baseline", border: "t_border" },
+      { name: "JavaScript", color: "c_baseline", border: "t_border" },
+      { name: "HTML", color: "c_baseline", border: "t_border" },
+      { name: "CSS", color: "c_baseline", border: "t_border" },
+    ],
     github: "https://github.com/Sankku/Practical-React",
     demo: "https://peaceful-mahavira-01f523.netlify.app/",
   },
@@ -75,13 +121,22 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, techs, title, github, demo }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt="PortfolioImage" />
               </div>
               <h3>{title}</h3>
+              <div className="portfolio__tags">
+                {techs.map((tech) => (
+                  <p
+                    key={`${name}-${tech.name}`}
+                    className={`text-[14px] ${tech.color} ${tech.border}`}>
+                    {tech.name}
+                  </p>
+                ))}
+              </div>
               <div className="portfolio__item-cta">
                 <a
                   href={github}

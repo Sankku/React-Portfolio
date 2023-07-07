@@ -1,50 +1,64 @@
+.c_baseline {
+  --tw-text-opacity: 1;
+  color: rgb(94 234 212 / var(--tw-text-opacity));
+}
+
+.t_border {
+  background-color: rgba(45, 212, 191, 0.1);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 1rem;
+}
+
 .portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    backdrop-filter: grayscale(30%);
-    transition: var(--transition);
+  text-align: center;
+  background: var(--color-bg-variant);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid var(--color-primary);
+  backdrop-filter: grayscale(30%);
+  transition: var(--transition);
 }
 
-.portfolio__item:hover{
-    border-color: var(--color-primary-variant);
-    background: transparent;
-    transform: scale(1.1);
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+  transform: scale(1.1);
 }
 
-.portfolio__item-image{
-    border-radius: 1.5rem;
-    overflow: hidden;
+.portfolio__item-image {
+  max-height: 12rem;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
-.portfolio-item h3{
-    margin: 1.2rem 0 2rem;
+.portfolio__tags {
+  display: inline-flex;
+  gap: 1rem;
+  padding-bottom: 2rem;
 }
 
-.portfolio__item-cta{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0 1rem;
 }
 
-/************************* Media queries (medium devices) ******************************/
-@media screen and (max-width: 1024px){
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
+p {
+  font-size: 0.75rem;
+  font-weight: 500;
 }
-/************************* Media queries (small devices) ******************************/
-@media screen and (max-width: 600px){
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+
+.portfolio__item-cta {
+  padding-left: 20%;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }

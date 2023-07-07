@@ -65,17 +65,29 @@ header {
 
 /***************** HEADER SOCIALS *******************/
 .header__socials {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
   position: fixed;
   left: 2rem;
-  bottom: 40%;
+  bottom: 30%;
+  transition: var(--transition);
+}
+
+.header__socials:hover {
+  transform: scale(1.1);
 }
 
 .header__socials::after {
+  content: "";
+  width: 1px;
+  height: 4rem;
+  background: var(--color-primary);
+}
+
+.header__socials::before {
   content: "";
   width: 1px;
   height: 4rem;

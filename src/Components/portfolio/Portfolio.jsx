@@ -1,6 +1,7 @@
 /* eslint-disable no-restricted-globals */
 import React from "react";
 import "./portfolio.css";
+import IMG0 from "../../Assets/portfolio0.AVIF";
 import IMG1 from "../../Assets/portfolio1.AVIF";
 import IMG2 from "../../Assets/portfolio2.AVIF";
 import IMG3 from "../../Assets/portfolio3.AVIF";
@@ -11,6 +12,19 @@ import IMG7 from "../../Assets/portfolio7.AVIF";
 import IMG8 from "../../Assets/portfolio8.AVIF";
 
 const data = [
+  {
+    id: 0,
+    image: IMG0,
+    title: "Threads Like App (In Progress)",
+    techs: [
+      { name: "NextJS", color: "c_baseline", border: "t_border" },
+      { name: "MongoDB", color: "c_baseline", border: "t_border" },
+      { name: "Tailwind", color: "c_baseline", border: "t_border" },
+      { name: "TypeScript", color: "c_baseline", border: "t_border" },
+    ],
+    github: "https://github.com/Sankku/aurora-system",
+    demo: "https://github.com/Sankku/aurora-system",
+  },
   {
     id: 1,
     image: IMG8,
@@ -83,8 +97,8 @@ const data = [
       { name: "HTML", color: "c_baseline", border: "t_border" },
       { name: "CSS", color: "c_baseline", border: "t_border" },
     ],
-    github: "https://github.com/Sankku/Practical-React",
-    demo: "https://peaceful-mahavira-01f523.netlify.app/",
+    github: "https://github.com/Sankku/passwordgenerator",
+    demo: "https://github.com/Sankku/passwordgenerator",
   },
   {
     id: 7,
@@ -109,8 +123,8 @@ const data = [
       { name: "HTML", color: "c_baseline", border: "t_border" },
       { name: "CSS", color: "c_baseline", border: "t_border" },
     ],
-    github: "https://github.com/Sankku/Practical-React",
-    demo: "https://peaceful-mahavira-01f523.netlify.app/",
+    github: "https://github.com/Sankku/Count-till-next-iphone",
+    demo: "https://github.com/Sankku/Count-till-next-iphone",
   },
 ];
 

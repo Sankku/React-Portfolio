@@ -1,6 +1,7 @@
 .container.testimonials__container {
   height: 25rem;
   width: 50%;
+  max-width: 45rem;
   padding-bottom: 3rem;
 }
 

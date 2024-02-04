@@ -10,10 +10,23 @@ import IMG5 from "../../Assets/portfolio5.AVIF";
 import IMG6 from "../../Assets/portfolio6.AVIF";
 import IMG7 from "../../Assets/portfolio7.AVIF";
 import IMG8 from "../../Assets/portfolio8.AVIF";
+import IMG9 from "../../Assets/portfolio9.AVIF";
 
 const data = [
   {
     id: 0,
+    image: IMG9,
+    title: "Modern Enterprise Landing Page",
+    techs: [
+      { name: "NextJS", color: "c_baseline", border: "t_border" },
+      { name: "Framer Motion", color: "c_baseline", border: "t_border" },
+      { name: "Tailwind", color: "c_baseline", border: "t_border" },
+    ],
+    github: "https://github.com/Sankku/asd-studios",
+    demo: "https://asd-studios.vercel.app/",
+  },
+  {
+    id: 1,
     image: IMG0,
     title: "Threads Like App (In Progress)",
     techs: [
@@ -26,7 +39,7 @@ const data = [
     demo: "https://github.com/Sankku/aurora-system",
   },
   {
-    id: 1,
+    id: 2,
     image: IMG8,
     title: "Only JavaScript Fighting Game",
     techs: [
@@ -37,7 +50,7 @@ const data = [
     demo: "https://gleeful-syrniki-14341c.netlify.app",
   },
   {
-    id: 2,
+    id: 3,
     image: IMG1,
     title: "Only HTML, Css, JavaScript Portfolio",
     techs: [
@@ -49,7 +62,7 @@ const data = [
     demo: "https://sankku.github.io/Portfolio/",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG7,
     title: "React Restaurant Web Modern Ui",
     techs: [
@@ -62,7 +75,7 @@ const data = [
     demo: "https://restaurant-template-taupe.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG2,
     title: "JavaScript Admin Dashboard",
     techs: [
@@ -74,7 +87,7 @@ const data = [
     demo: "https://sankku.github.io/Admin-Dashboard/",
   },
   {
-    id: 5,
+    id: 6,
     image: IMG3,
     title: "React Phone Weather Application",
     techs: [
@@ -88,7 +101,7 @@ const data = [
     demo: "https://angry-bose-1663c7.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: IMG5,
     title: "JavasCript Password Generator",
     techs: [
@@ -101,7 +114,7 @@ const data = [
     demo: "https://github.com/Sankku/passwordgenerator",
   },
   {
-    id: 7,
+    id: 8,
     image: IMG4,
     title: "React ToDo Application",
     techs: [
@@ -114,7 +127,7 @@ const data = [
     demo: "https://peaceful-mahavira-01f523.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     image: IMG6,
     title: "JavaScript Counter",
     techs: [

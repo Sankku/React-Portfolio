@@ -33,7 +33,7 @@ const Nav = () => {
         <BsBookHalf />
       </a>
       <a
-        aria-label="See some of the services that Santiago provides"
+        aria-label="See Santiago's work experience"
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}>

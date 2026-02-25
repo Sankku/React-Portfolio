@@ -1,5 +1,6 @@
 .container.testimonials__container {
-  height: 25rem;
+  height: auto;
+  min-height: 20rem;
   width: 50%;
   max-width: 45rem;
   padding-bottom: 3rem;
@@ -38,17 +39,17 @@
 /************************* Media queries (medium devices) ******************************/
 @media screen and (max-width: 1024px) {
   .container.testimonials__container {
-    height: 27rem;
-    width: 60%;
+    height: auto;
+    width: 80%;
   }
 }
 /************************* Media queries (small devices) ******************************/
 @media screen and (max-width: 600px) {
   .container.testimonials__container {
-    height: 45rem;
+    height: auto;
     width: var(--container-width-sm);
   }
   .client__review {
-    width: var(--container-width-sm);
+    width: 100%;
   }
 }

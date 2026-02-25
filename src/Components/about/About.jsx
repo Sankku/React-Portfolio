@@ -24,44 +24,39 @@ const About = () => {
               <h4>Experience</h4>
               <small>
                 <ul className="check-list">
-                  <li>3+ Years Coding</li>
-                  <li>Frontend</li>
-                  <li>Web Hooks</li>
-                  <li></li>
+                  <li>4+ Years Pro</li>
+                  <li>SSr Role</li>
+                  <li>Agentic AI</li>
                 </ul>
               </small>
             </article>
 
             <article className="about__card">
               <BsClockHistory className="about__icon" />
-              <h4>Hobbies</h4>
+              <h4>Stack</h4>
               <small>
                 <ul className="check-list">
-                  <li>Nature</li>
-                  <li>Gaming</li>
-                  <li>Developing</li>
-                  <li>Technology</li>
-                  <li>Sports</li>
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>Java Rest API</li>
                 </ul>
               </small>
             </article>
 
             <article className="about__card">
               <AiFillFolderOpen className="about__icon" />
-              <h4>Projects</h4>
+              <h4>Languages</h4>
               <small>
                 <ul className="check-list">
-                  <li>40+ Services Completed</li>
-                  <li>10+ Responsives Websites</li>
+                  <li>Spanish (Native)</li>
+                  <li>English C1-C2</li>
                 </ul>
               </small>
             </article>
           </div>
 
           <p>
-            Hello! My name is <b>Santiago</b> and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2018 when I decided to try making web designs in Photoshop.
+            Hello! My name is <b>Santiago</b>, a Frontend Developer with over 4 years of experience, including 2 years as a Semi-Senior at Etendo ERP. I've led the architecture of a metadata-driven UI system and built generic API layers linking the frontend to Java Servlets. I am passionate about applying the latest paradigms, like agentic AI tools and MCP integrations, to build scalable, clean, and tested applications.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

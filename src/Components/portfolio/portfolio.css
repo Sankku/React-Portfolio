@@ -57,8 +57,22 @@ p {
 }
 
 .portfolio__item-cta {
-  padding-left: 20%;
+  justify-content: center;
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

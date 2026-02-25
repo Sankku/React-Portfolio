@@ -18,15 +18,14 @@ const Header = () => {
           <h1>Santiago Alaniz</h1>
           <div className="text-content">
             <h4 className="text-light">
-              <b>Developer</b> raised in <b>Argentina</b>, and a university
-              student excited to find a place to expand my knowledge and keep
-              growing as a professional.
+              <b>SSr. Frontend Developer</b> based in <b>Córdoba, Argentina</b>.
+              Focused on React & TypeScript schemas, scalable architecture, and agentic AI integrations.
             </h4>
           </div>
           <CTA />
         </article>
         <div className="scroll__cont">
-          <a href="#contact" className="scroll__down">
+          <a href="#about" className="scroll__down">
             Scroll Down ---&gt;
           </a>
         </div>

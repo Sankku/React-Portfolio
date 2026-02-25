@@ -5,114 +5,107 @@ import { FaCheck } from "react-icons/fa";
 const Services = () => {
   return (
     <section id="services">
-      <h2>Services</h2>
+      <h2>Work Experience</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Etendo - SSr Frontend Dev</h3>
           </div>
           <ul className="service__list">
             <li>
-              <p style={{ textAlign: "center" }}>
-                I value simple content structure, clean design patterns, and
-                thoughtful interactions
+              <p style={{ textAlign: "center", marginBottom: "1rem", width: "100%" }}>
+                <i>Mar 2023 – Present | Córdoba, Argentina</i>
               </p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Figma</p>
+              <p>Built full component library powering new UI (React, TypeScript).</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Photoshop</p>
+              <p>Engineered a metadata-driven UI directly from backend metadata.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Pen & Paper</p>
+              <p>Developed generic API REST layer for Java Servlets.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Adobe Illustrator</p>
+              <p>Implemented robust Bearer Token & Authentication validations.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>3D models</p>
+              <p>Pipelines with Jenkins, GitHub Actions, Docker & SonarQube.</p>
+            </li>
+            <li>
+              <FaCheck className="service__list-icon" />
+              <p>Agentic AI integrations and LLM Model Context Protocols.</p>
+            </li>
+            <li>
+              <FaCheck className="service__list-icon" />
+              <p>Extensive Jest and Cypress testing.</p>
             </li>
           </ul>
         </article>
-        {/* END OF UI/UX */}
+
+        {/* END OF JOB 1 */}
+
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>ASD Studios - Frontend Dev</h3>
           </div>
           <ul className="service__list">
             <li>
-              <p style={{ textAlign: "center" }}>
-                I like to code things from scratch, and enjoy bringing ideas to
-                life in the browser
+              <p style={{ textAlign: "center", marginBottom: "1rem", width: "100%" }}>
+                <i>2021 – 2023</i>
               </p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Visual Studio Code</p>
+              <p>Improved browser performance by 127% rebuilding a site from scratch.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>BootStrap</p>
+              <p>Increased team productivity 30% by implementing Kanban.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>CodePen</p>
-            </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>GitHub</p>
-            </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>GitLab</p>
-            </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>Terminal</p>
+              <p>Delivered highly responsive features in React, TypeScript, and Python.</p>
             </li>
           </ul>
         </article>
-        {/* END OF WEB DEVELOPMENT */}
+
+        {/* END OF JOB 2 */}
+
         <article className="service">
           <div className="service__head">
-            <h3>Passionate</h3>
+            <h3>Freelance - Frontend Dev</h3>
           </div>
           <ul className="service__list">
             <li>
-              <p style={{ textAlign: "center" }}>
-                What differentiates me from other developers?
+              <p style={{ textAlign: "center", marginBottom: "1rem", width: "100%" }}>
+                <i>2019 – 2021 | USA & LATAM</i>
               </p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Oral and Written communication</p>
+              <p>Built 30+ responsive web projects for international clients.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Reliable and Consistent</p>
+              <p>Applied TDD with Jest and reached 85% coverage on an untested codebase.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Committed to Lifelong Learning</p>
+              <p>Implemented Micro-Frontend architecture with Single-SPA.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>Meticulous</p>
-            </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>Used to competitive enviroments</p>
+              <p>Delivered clean, pixel-perfect UI experiences.</p>
             </li>
           </ul>
         </article>
-        {/* END OF CONTENT CREATION */}
       </div>
     </section>
   );

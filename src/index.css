@@ -11,18 +11,18 @@
 }
 
 :root {
-  --color-bg: #242424;
-  --color-bg-variant: #23272f;
-  --color-primary: #76c5bc;
-  --color-primary-variant: #c7519b;
-  --color-white: white;
-  --color-light: #d5d5d5;
+  --color-bg: #111827;
+  --color-bg-variant: #1f2937;
+  --color-primary: #14b8a6;
+  --color-primary-variant: #2dd4bf;
+  --color-white: #f8fafc;
+  --color-light: #9ca3af;
 
   --transition: all 400ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-sm: 70%;
+  --container-width-sm: 85%;
 }
 
 html {
@@ -35,10 +35,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: radial-gradient(ellipse at center, #242424, #090a0f);
+  background: radial-gradient(ellipse at top, #1f2937, #111827, #030712);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url(../src/Assets/texture-1.png); */
 }
 
 /******************* general styles ********************/
